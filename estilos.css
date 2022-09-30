@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
+    
  }
 
  header{
@@ -46,6 +47,163 @@
  #nav .link-nav:hover{
    color: rgb(47, 102, 223);
  }
+
+ #contenedor{
+   width: 80%;
+   background-color: crimson;
+   margin: 0 auto;
+   padding: 10px;
+}
+
+.imgsec1{
+   width: 110px;
+   border-bottom: 10px;
+   border-top: 10px; 
+}
+
+#seccion1{
+   display: grid;
+   grid-template-columns: 50% 30%;
+   grid-template-rows: 1fr 1fr ;
+   gap: 0 150px;
+   text-align: justify;
+}
+
+#articulo1sec1{
+   grid-column: 2/3;
+   grid-row: 1/3;
+}
+
+#articulo2sec1{
+   grid-column: 1/1;
+   
+}
+
+#articulo3sec1{
+   grid-column: 1/1;
+  
+}
+
+#titulo{
+   padding-bottom: 40px;
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.subtitulo1{
+   text-align: center;
+    padding-bottom: 20px;
+}
+
+#Titulo2
+{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+#imgsec2{
+   width: 110px;
+   border-bottom: 20px;
+   border-top: 20px;
+}
+
+#seccion2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+   
+}
+
+#contenedor2{
+   background-color: darksalmon;
+   display: grid;
+   margin: 50px 20px;
+   border-bottom: 100px;
+}
+
+.subtitulosec2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+.articulo1sec2{
+   text-align: center; 
+    text-align: justify;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+#video{
+   width: 400px;
+    height: 300px;
+    border-bottom: 20px;
+    margin-top: 20px;
+   
+}
+
+#seccion3{ 
+   margin-top: 100px; 
+   margin-bottom: 100px;        
+   display: grid;         
+   grid-template-columns: 1fr 1fr 1fr 1fr;        
+    column-gap: 50px;
+    padding: 20px; 
+    
+} 
+
+.imgsec3{        
+    width: 110px; 
+    border-bottom: 20px;
+    border-top: 20px;
+} 
+
+.subtitulosec3{
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.articulosec3{        
+    text-align: center; 
+    text-align: justify;
+
+} 
+
+ 
+
+.imgfoter{
+   width: 40px;
+   }
+
+   footer{
+   height: 100px;
+   background-color: aquamarine;
+   margin-top: 100px;
+   text-align: center;
+   padding-top: 20px;
+   border-radius: 5px;
+   }
+
+   .parrafo{
+      margin-top: 20px;
+   }
+   
+
+
+         
+
+
+     
+         
+         
+
 
 
 
